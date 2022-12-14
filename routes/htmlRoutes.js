@@ -1,37 +1,28 @@
 const path = require("path");
-const htmlRouter =
-  require("express").Router();
+const htmlRouter = require("express").Router();
 
-htmlRouter.get(
-  "/notes",
-  (req, res) => {
-    res.sendFile(
-      path.join(
-        __dirname,
-        "../public/notes.html"
+
+// Calls notes
+htmlRouter.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname,
+    "../public/notes.html"
       )
     );
   }
 );
 
-htmlRouter.get(
-  "/",
-  (req, res) => {
-    res.sendFile(
-      path.join(
-        __dirname,
+// Calls homepage
+htmlRouter.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname,
         "../public/index.html"
       )
     );
   }
 );
 
-htmlRouter.get(
-  "/*",
-  (req, res) => {
-    res.sendFile(
-      path.join(
-        __dirname,
+// Calls 404 page
+htmlRouter.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname,
         "../public/404.html"
       )
     );
@@ -39,17 +30,3 @@ htmlRouter.get(
 );
 
 module.exports = htmlRouter;
-
-// // Dependencies
-// const path = require("path");
-
-// // Routing
-// module.exports = (app) => {
-//     app.get("/notes", (req, res) => {
-//         res.sendFile(path.join(__dirname, "../public/notes.html"));
-//     });
-
-//     app.get("*", (req, res) => {
-//         res.sendFile(path.join(__dirname, "../public/index.html"));
-//     });
-// };
