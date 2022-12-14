@@ -8,8 +8,7 @@
 
 ## Description 
 
-<!-- A Node.js command-line interface (CLI) application that takes information about employees in a software engineering team and dynamically generates an HTML file based on user input that displays a summary for each person. A unit test for every part of the application's code is included to ensure the application code is maintanable. Check out the example team-html
-[`here!`](https://github.com/emiliatrentham/OOP-team-profile-generator/blob/main/dist/team.html)  -->
+Intuitive Note Taker that allows the user to write and save notes! Live deployed on Heroku.
 
 ## User Story
 
@@ -29,44 +28,34 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * [Socials](#questions)
 
 ## Photos
-<!-- ![Team Profile Rendered Output Screenshot](./Assets/project-screenshot.png) -->
+
+![Note Taker GIF](./Assets/demo-GIF.gif)
 
 
 ## Installation
 
-<!-- To generate a new team profile, install node and npm : 
- - [Download Node](https://nodejs.org/en/download/)
-  - Follow [this link](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for detailed instructions on installing node 
- 
- `git clone` this repository to your local machine.
+`git clone` this repository to your local machine.
 
 Install dependencies:
-
-- [inquirer](https://www.npmjs.com/package/inquirer)
-
-dev-dependencies:
-
-- [jest](https://www.npmjs.com/package/jest)
-
-
-To start the application, run `node index.js` in the command line and answer the prompts that generate a new file.
-
+`npm install`
+ 
+To start the application, run `node server.js` in the command line, then open http://localhost:8000 in your preferred browswer. 
 
 ## Usage 
 
-Upon initialization, the application uses the `inquirer` package to prompt the user or manager to enter the following information about the team manager: name, employee ID, email address, and office number.
-
-Subsequently, the manager's information is added and pushed to the repository, the user is then presented with a menu with options to add more team members, i.e., Engineer and/or Intern, or to finish assembling their team. In which case, the user will exit the application and an HTML file containing the user input will be rendered.  -->
+This project can be used to generate a collection of notes which can be removed when no longer needed. 
 
 ## Technology
 
 Technology used in the development of this app:
 
+[![Boostrap Badge](https://img.shields.io/badge/-bootstrap5-553c7b?style=for-the-badge&labelColor=black&logo=bootstrap&logoColor=553c7b)](#)
+
+[![ExpressJS Badge](https://img.shields.io/badge/-Express.JS-ff781f?style=for-the-badge&labelColor=black&logo=express&logoColor=FF781F)](#)
+
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
-
-[![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)](https://www.npmjs.com/package/jest)
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://whatwg.org/)
 
@@ -74,11 +63,11 @@ Technology used in the development of this app:
 
 ## Features
 
-<!-- - Uses express.js to create and run a server
+- Uses express.js to create and run a server
 - Updates a JSON file when creating and deleting profiles
 - Has a functional API
 - Utilizes modularization
-- Uses syntax and paradigms introduced in ES6 and after  -->
+
 
 ## License
 
