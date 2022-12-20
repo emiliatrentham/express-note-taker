@@ -8,7 +8,7 @@
 
 ## Description 
 
-Intuitive Note Taker that allows the user to write and save notes! Live deployed on Heroku.
+Intuitive Note Taker application that allows the user to write and save notes. 
 
 ## User Story
 
@@ -33,13 +33,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 
 ## Installation
-
-`git clone` this repository to your local machine.
-
-Install dependencies:
-`npm install`
- 
-To start the application, run `node server.js` in the command line, then open http://localhost:8000 in your preferred browswer. 
+ Click [here](https://uw-week-11-note-taker.herokuapp.com/) to check out the app, live deployed on Heroku!  
 
 ## Usage 
 
